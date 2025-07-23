@@ -1,0 +1,38 @@
+body {
+    background-color: #f8f9fa; /* Light background */
+}
+
+.card.testimonial-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Animation effect */
+}
+
+.card.testimonial-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.card-text {
+    font-style: italic;
+}
+
+.card-title {
+    margin-top: 10px; /* Space between the quote and the name */
+    font-weight: bold;
+}
+
+.card-subtitle {
+    color: gray; /* Lighter color for the subtitle */
+}
+footer {
+    background-color: transparent; /* or remove this line */
+}
+
+footer {
+    color: #ffffff; /* change to a color that stands out against the new background */
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value for transparency */
+}

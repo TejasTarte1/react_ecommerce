@@ -1,0 +1,101 @@
+.product-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    background-color: #fff;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #333;
+}
+
+.badges {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    color: white;
+    font-size: 0.9em;
+    margin: 0 5px;
+}
+
+.new-badge {
+    background-color: #4CAF50; /* Green */
+}
+
+.sale-badge {
+    background-color: #FF5733; /* Red */
+}
+
+.popular-badge {
+    background-color: #FFC107; /* Yellow */
+}
+
+.add-to-cart {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar {
+  background-color: black; /* Light background */
+  color: white;
+}
+
+.nav-link {
+  font-size: 1.1rem; /* Slightly larger font size */
+  color: black; /* Primary text color */
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: none; /* Add underline on hover */
+}
+.dropdown-item:hover {
+  background-color: #e7f1ff; 
+}
+
+.badge {
+  font-size: 0.8rem; 
+}
+
+.navbar-nav {
+  flex-direction: row; 
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.nav-link {
+  padding: 0 15px; 
+}
+
+.nav-item .nav-link {
+  color: white;
+}
+
+.nav-item .nav-link:active{
+  color: white;
+  background-color: red;
+}
